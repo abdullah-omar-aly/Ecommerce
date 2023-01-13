@@ -39,7 +39,7 @@ const cartSlice = createSlice({
                 title: product.title,
                 quantity: 1,
                 price: product.price,
-                image: product.images[0]
+                image: product.image
             }
             state.cartProducts = [...state.cartProducts, cartProduct]
             calcTotalAmount(state)
