@@ -1,0 +1,132 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "1 U-Shape Sofa",
+      "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.",
+      "price":3500,
+      "quantity": 17,
+      "category": "accessories",
+      "discount": 10,
+      "image": "https://eg.homzmart.net/catalog/product/w/e/we1.jpg"
+
+    },
+    {
+      "id": "2",
+      "name": "2 U-Shape Sofa",
+      "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.",
+      "price":3500,
+      "quantity": 17,
+      "category": "accessories",
+      "discount": 10,
+      "image": "https://eg.homzmart.net/catalog/product/w/e/we1.jpg"
+
+    },
+    {
+      "id": "3",
+      "name": "3 U-Shape Sofa",
+      "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.",
+      "price":3500,
+      "quantity": 17,
+      "category": "accessories",
+      "discount": 10,
+      "image": "https://eg.homzmart.net/catalog/product/w/e/we1.jpg"
+
+    },
+    {
+      "id": "4",
+      "name": "4 U-Shape Sofa",
+      "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.",
+      "price":3500,
+      "quantity": 17,
+      "category": "accessories",
+      "discount": 10,
+      "image": "https://eg.homzmart.net/catalog/product/w/e/we1.jpg"
+
+    },
+    {
+      "id": "5",
+      "name": " 5 U-Shape Sofa",
+      "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.",
+      "price":3500,
+      "quantity": 17,
+      "category": "accessories",
+      "discount": 10,
+      "image": "https://eg.homzmart.net/catalog/product/w/e/we1.jpg"
+
+    },
+    {
+      "id": "6",
+      "name": "6 U-Shape Sofa",
+      "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.",
+      "price":3500,
+      "quantity": 17,
+      "category": "accessories",
+      "discount": 10,
+      "image": "https://eg.homzmart.net/catalog/product/w/e/we1.jpg"
+
+    },    {
+      "id": "7",
+      "name": "7 U-Shape Sofa",
+      "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.",
+      "price":3500,
+      "quantity": 17,
+      "category": "222",
+      "discount": 10,
+      "image": "https://eg.homzmart.net/catalog/product/w/e/we1.jpg"
+
+    },    {
+      "id": "8",
+      "name": "8 U-Shape Sofa",
+      "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.",
+      "price":3500,
+      "quantity": 17,
+      "category": "accessories",
+      "discount": 10,
+      "image": "https://eg.homzmart.net/catalog/product/w/e/we1.jpg"
+
+    },    {
+      "id": "9",
+      "name": "9 U-Shape Sofa",
+      "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.",
+      "price":3500,
+      "quantity": 17,
+      "category": "accessories",
+      "discount": 10,
+      "image": "https://eg.homzmart.net/catalog/product/w/e/we1.jpg"
+
+    },    {
+      "id": "10",
+      "name": "10 U-Shape Sofa",
+      "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.",
+      "price":3500,
+      "quantity": 17,
+      "category": "accessories",
+      "discount": 10,
+      "image": "https://eg.homzmart.net/catalog/product/w/e/we1.jpg"
+
+    }
+    ,    {
+      "id": "11",
+      "name": "11 U-Shape Sofa",
+      "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.",
+      "price":3500,
+      "quantity": 17,
+      "category": "accessories",
+      "discount": 10,
+      "image": "https://eg.homzmart.net/catalog/product/w/e/we1.jpg"
+
+    },    {
+      "id": "12",
+      "name": "12 U-Shape Sofa",
+      "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur facilis? Debitis odio, accusamus porro excepturi, deleniti maiores ratione repellat quibusdam ut, natus quia at aliquid molestias quod quaerat ad.",
+      "price":3500,
+      "quantity": 17,
+      "category": "accessories",
+      "discount": 10,
+      "image": "https://eg.homzmart.net/catalog/product/w/e/we1.jpg"
+
+    }
+    
+  ]
+}
