@@ -21,7 +21,7 @@ function Cart () {
     return (
       <>
         <div 
-            className={`glass-layer fixed top-0 left-0 w-screen h-screen transition-all  z-1-  ${cart.isVisible ? "z-30 bg-semi-transparent" : "delay-300 z-1- bg-transparent"}`}
+            className={`glass-layer fixed top-0 left-0 w-screen h-screen transition-all  z-1-  ${cart.isVisible ? "z-30 bg-semi-transparent" : "delay-300 z-[-1] bg-transparent"}`}
             onClick={() => { if (cart.isVisible) {dispatch(cartActions.hideCart())} }  } 
         >
             <style jsx="true">
@@ -46,7 +46,6 @@ function Cart () {
 
                         {
                          cart.cartProducts.length  === 0
-                        // cartProducts.length === 0
                         ? <p className='text-sm pt-4'>Your cart is currently empty</p>
                         : <div 
                                 className='flex flex-col justify-between h-full ' 
