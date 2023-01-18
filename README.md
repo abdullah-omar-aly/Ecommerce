@@ -12,7 +12,7 @@
 
 ## Features
 
-- shopping cart using local storage and redux for state managment and  
+- shopping cart using local storage and redux for state managment
 - pagination system for products
 - server side rendering using Next.js SSR
 
