@@ -9,7 +9,7 @@ import ReactPaginate from 'react-paginate'
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import ProductCard from '../components/ProductCard'
 import ProductsSlider from '../components/ProductsSlider'
-
+import { products } from '../dummyData'
 function HomePage({ productsData, pagesCount, page }) {
 
 
@@ -86,18 +86,15 @@ HomePage.getLayout = function pageLayout(page) {
 
 export async function getServerSideProps(context) {
 
-  const page = parseInt(context.query.page) || 1
-  const limit = parseInt(context.query.limit) || 6
+  let page = parseInt(context.query.page) - 1 || 0
+  let limit = parseInt(context.query.limit) || 6
 
-  const response = await axios.get(`http://localhost:3000/api/products?_page=${page}&_limit=${limit}`)
-  // const response = await axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URL}/products?_page=${page}&_limit=${limit}`)
-  const { productsData, productsCount } = response.data
-
-
+  const productsData = products.slice(page * limit , page * limit + limit)
+  
   return {
     props: {
       productsData,
-      pagesCount: productsCount / limit,
+      pagesCount: products.length / limit,
       page: page,
       limit
 

@@ -4,11 +4,8 @@ const nextConfig = {
   swcMinify: true,
   env: {
     mongodburl: "Your MongoDB connection String",
-},
-images: {
- 
-  
 }
+
 
 }
 
