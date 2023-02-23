@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ReactPaginate from 'react-paginate'
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import ProductCard from '../components/ProductCard'
-import ProductsSlider from '../components/productsSlider'
+import ProductsSlider from '../components/ProductsSlider'
 
 function HomePage({ productsData, pagesCount, page }) {
 

@@ -1,4 +1,3 @@
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -11,8 +10,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { FreeMode, Pagination , Autoplay } from "swiper";
-
-export default function ProductsSlider() {
+function ProductsSlider() {
   return (
     <>
       <Swiper
@@ -55,3 +53,6 @@ export default function ProductsSlider() {
     </>
   );
 }
+
+
+export default ProductsSlider
