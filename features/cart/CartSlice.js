@@ -9,11 +9,12 @@ const syncCartWithLocalStorage = (state) => {
 }
 
 const calcTotalPrice = (state) => {
-    let sum = 0
-    for (let i = 0; i < state.cartProducts.length; i++) {
-        sum = sum + state.cartProducts[i].price * state.cartProducts[i].quantity
-    }
-    state.totalPrice = sum
+    const initialValue = 0;
+    const sum = state.cartProducts.reduce(
+        (accumulator, product) => accumulator + product.price * product.quantity,
+        initialValue
+        );
+        state.totalPrice = sum
 }
 
 const cartSlice = createSlice({

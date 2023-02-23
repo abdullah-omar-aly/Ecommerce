@@ -12,7 +12,7 @@ function Cart () {
     const cart = useSelector(selectCartItems)
 
   const dispatch = useDispatch()
-
+console.log('cart' , cart)
 
     useEffect(() => {
       dispatch(cartActions.handleAppInit())
@@ -76,7 +76,7 @@ function Cart () {
                                                 <Link 
                                                     href={`/products/${cartProduct.id}`}    
                                                 >
-                                                    <a onClick={() => { dispatch(cartActions.hideCart())  }}>
+                                                    <a  className="w-40 inline-block truncate" onClick={() => { dispatch(cartActions.hideCart())  }}>
                                                             {cartProduct.title}
                                                     </a>
                                                 </Link>
@@ -128,7 +128,7 @@ function Cart () {
                             <div className='border-t border-normal-gray h-40'>
                                 <div className='flex justify-between items-center py-2' >
                                     <span className='uppercase'>subtotal</span>
-                                    <span>{cart.totalAmount} $</span>
+                                    <span>{cart.totalPrice} $</span>
                                 </div>
                                 <p className="text-center italic text-slate-400">Shipping, taxes, and discounts calculated at checkout</p>
                                 <button 
