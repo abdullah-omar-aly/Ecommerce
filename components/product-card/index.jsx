@@ -2,8 +2,9 @@ import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-regular-svg-icons';
 import { useDispatch, useSelector } from 'react-redux'
-import { cartActions, selectCartItems } from "./cart/CartSlice"
+import { cartActions, selectCartItems } from "../cart/CartSlice"
 import Link from 'next/link';
+
 function ProductCard({ product }) {
     const cart = useSelector(selectCartItems)
     const dispatch = useDispatch()
@@ -15,7 +16,7 @@ function ProductCard({ product }) {
             <Link href={`/products/${product.id}`} className='flex items-center justify-center my-auto  w-auto overflow-hidden'>
                 {/* <Image src={`/slideshow1.png`} alt="" height="300" width="200" style={{ maxHeight: "300px" }} /> */}
                 <div className='w-full h-72 overflow-hidden'>
-                <img className="cursor-pointer max-h-50 object-cover object-center h-full w-full	" src={product.image} alt=""/>
+                    <img className="cursor-pointer max-h-50 object-cover object-center h-full w-full	" src={product.image} alt="" />
                 </div>
             </Link>
             <div className='flex justify-center flex-col px-3 h-40'>
