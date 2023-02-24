@@ -23,13 +23,13 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/abdullah-omar-aly/web-shop-nextjs-redux-tailwindcss.git
+  git clone https://github.com/abdullah-omar-aly/Ecommerce
 ```
 
 Go to the project directory
 
 ```bash
-  cd web-shop-nextjs-redux-tailwindcss
+  cd Ecommerce
 ```
 
 Install dependencies
