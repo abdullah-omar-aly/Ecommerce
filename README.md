@@ -8,7 +8,7 @@
 
 **Frameworks/libraries:** Next.js , Tailwind CSS , Redux/toolkit
 
-**Packages:** react-paginate , axios
+**Packages:** react-paginate , axios , swipperjs
 
 ## Features
 
