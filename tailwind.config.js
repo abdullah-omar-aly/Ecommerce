@@ -25,7 +25,7 @@ module.exports = {
         14: "14px",
       },
       colors: {
-        "primary": "#002E7A", 
+        "primary": "#1F2A4A", 
         "semi-transparent": "rgba(0,0,0,0.5)",
         "dark-gray" : '#1C1D1D',
         "normal-gray" : '#343535',

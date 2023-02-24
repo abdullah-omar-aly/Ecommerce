@@ -1,4 +1,4 @@
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { cartActions } from "../cart/CartSlice"
@@ -12,12 +12,16 @@ const Navbar = () => {
   const dispatch = useDispatch()
 
   return (
-    <div className='bg-white sticky z-10 top-0 mb-7 shadow-md'>
-      <div className="container max-w-screen-xl ">
+    <div className='bg-white sticky z-10 top-10 mb-7 '>
+      <div className="container max-w-screen-xl lg:rounded-b-[60px]	 bg-[#F1E9E4] shadow-md">
         <div className='flex items-center justify-between h-16 '>
-            <h1 className='capitalize font-semibold text-xl'><span className='text-primary'>E</span>commerce</h1>
+            <div className='lg:hidden'>
+              <FontAwesomeIcon icon={faBars} />
+            </div>
 
-            <div>
+            <h1 className='capitalize text-white font-semibold text-xl'><span className='text-primary'>E</span>commerce</h1>
+
+            <div className='flex gap-5'>
               <Link href="/">Home</Link>
               <Link href='/products'>Products</Link>
             </div>

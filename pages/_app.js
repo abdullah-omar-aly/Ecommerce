@@ -1,9 +1,10 @@
 import '../styles/globals.css'
 import { Provider } from 'react-redux'
 import store from '../app/store'
-import Cart from '../features/cart/Cart'
+import Cart from '../components/cart'
 import Head from 'next/head'
-import Footer from '../components/Footer'
+import Footer from '../components/footer'
+import MobileSidebar from '../components/mobile-sidebar'
 
 function MyApp({
   Component,
@@ -18,9 +19,10 @@ function MyApp({
             <title>NextJs Ecommerce</title>
             <meta name='description' content='hello from app.js' />
           </Head>
+          {/* <MobileSidebar /> */}
           <Cart />
           <Component {...pageProps} />
-          <Footer />
+          {/* <Footer /> */}
         </>)
       }
     </Provider>
