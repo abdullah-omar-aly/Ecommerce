@@ -3,6 +3,7 @@ import { Provider } from 'react-redux'
 import store from '../app/store'
 import Cart from '../features/cart/Cart'
 import Head from 'next/head'
+import Footer from '../components/Footer'
 
 function MyApp({
   Component,
@@ -19,6 +20,7 @@ function MyApp({
           </Head>
           <Cart />
           <Component {...pageProps} />
+          <Footer />
         </>)
       }
     </Provider>

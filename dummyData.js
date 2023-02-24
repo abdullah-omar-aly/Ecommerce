@@ -1,3 +1,5 @@
+import {  faFacebookF, faGoogle, faInstagram, faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
 export const products = [
     {
       "id": 1,
@@ -242,3 +244,31 @@ export const products = [
         } ,
         "discount": 10    }
   ]
+
+  export const SocialLinks = [
+    {
+        text: "facebook",
+        icon:  faFacebookF,
+        href: ""
+    },
+    {
+        text: "gmail",
+        icon: faGoogle,
+        href: ""
+    },
+    {
+        text: "instagram",
+        icon: faInstagram,
+        href: ""
+    },
+    {
+        text: "twitter",
+        icon: faTwitter ,
+        href: ""
+    },
+    {
+        text: "telegram",
+        icon: faTelegram,
+        href: ""
+    }
+]

@@ -4,6 +4,7 @@ import React from 'react'
 import { cartActions } from "../cart/CartSlice"
 import {  useDispatch } from 'react-redux'
 import { useSelector } from 'react-redux';
+import Link from 'next/link'
 
 const Navbar = () => {
   const cart = useSelector((state) => state.cart)
@@ -16,6 +17,10 @@ const Navbar = () => {
         <div className='flex items-center justify-between h-16 '>
             <h1 className='capitalize font-semibold text-xl'><span className='text-primary'>E</span>commerce</h1>
 
+            <div>
+              <Link href="/">Home</Link>
+              <Link href='/products'>Products</Link>
+            </div>
 
             <button 
                 onClick={() =>{ dispatch(cartActions.showCart())  }}
